@@ -207,5 +207,6 @@ class test_cases(unittest.TestCase):
         self.lp.Mark_TunDrIsmail()
         self.lp.click_submitFilter()
 
+        #Reset Filter
         self.lp.click_resetFilter()
 
